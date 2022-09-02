@@ -104,6 +104,7 @@ var specialCharacters = [
 "~"
 ]
 
+// the function needed to give options for numbers, letters, and special characters in the pop up window
 function getPasswordOptions () {
     var length = parseInt(prompt("How many characters would you like your password to be?"),10)
     
@@ -159,6 +160,7 @@ function getPasswordOptions () {
 
 };
 
+// function which combines random assortment of figures according to the specifications given
 function getRandom(arr) {
   var randomIndex = Math.floor(Math.random()* arr.length);
   var randomElement = arr[randomIndex];
@@ -166,7 +168,7 @@ function getRandom(arr) {
 }
 
 
-// generate the function "generatePassword"
+// generate the function "generatePassword" to generate the password itself
 function generatePassword () {
   var options = getPasswordOptions();
   var results = []
