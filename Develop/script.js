@@ -1,6 +1,6 @@
 // List of variables
 
-// Letters, numbers and special characters that can be used in the password
+// Letters, numbers and special characters that can be used in the password.
 var lowerCasedCharacters = [
   "a",
   "b",
